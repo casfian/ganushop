@@ -98,10 +98,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return WillPopScope(
       onWillPop: () => _onWillPop(context),
       child: Scaffold(
-        // appBar: AppBar(
-        //   title: Text(widget.title),
-        //   backgroundColor: Colors.black,
-        // ),
 
         body: SafeArea(
             child: WebView(
